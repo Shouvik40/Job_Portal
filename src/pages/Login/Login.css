@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 60px;
+}
+
+.logo-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://static.vecteezy.com/system/resources/previews/000/174/133/non_2x/job-search-in-newspaper-vector.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.login-section {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.form-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-button,
+.signup-button {
+  background-color: #205b63;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px; /* Increase font size */
+  margin: 15px;
+  margin-left: 75px;
+}
+.signup-link {
+  margin-top: 25px;
+}
+.login-button:hover,
+.signup-button:hover {
+  background-color: #0b3237;
+}
+
+.login-button:focus,
+.signup-button:focus {
+  outline: none;
+}
+
+.error-alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
